@@ -1,4 +1,11 @@
-import requests
+#!/usr/bin/env python
+
+"""Foobar.py: Description of what foobar does."""
+
+__author__      = "Barack Obama"
+__copyright__   = "Copyright 2009, Planet Earth"
+
+import requests, smtplib
 
 def main():
     stationId = 65
@@ -16,3 +23,5 @@ def main():
     return { 'response': response }
 
 main()
+
+def getStationStatus(station, stationId):
