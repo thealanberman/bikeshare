@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-"""Foobar.py: Description of what foobar does."""
+"""bikeshare.py: Sends alerts as bikes or docks become scarce at key times."""
 
-__author__      = "Barack Obama"
-__copyright__   = "Copyright 2009, Planet Earth"
+__author__ = "Alan Berman"
 
 import requests, smtplib
 
